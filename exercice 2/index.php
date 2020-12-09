@@ -1,21 +1,22 @@
+<?php
+    $color = 'purple';
+    $name = 'henry';
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>exercice 2</title>
+    <style>
+        body{
+            background-color : <?php echo $color;?>;
+        }
+    </style>
 </head>
-<?php
-    echo "<body bgcolor='purple'>";
-    ?>
+<body>
 
-
-    <?php
-    $name = 'henry';
-
-    echo '<h1>Je me présente, je m\'appelle '.$name.'!</h1>';
-    
-    ?>
+<h1>Je me présente, je m'appelle <?php echo $name; ?></h1>
 
 
 
