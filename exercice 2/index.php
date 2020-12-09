@@ -1,6 +1,7 @@
 <?php
     $color = 'purple';
     $name = 'henry';
+
     ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +12,7 @@
     <style>
         body{
             background-color : <?php echo $color;?>;
+
         }
     </style>
 </head>
