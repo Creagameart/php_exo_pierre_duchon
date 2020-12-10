@@ -6,16 +6,19 @@
     <title>exo 4</title>
 </head>
 <body>
+    <ul>
+        <?php
 
-<?php
-    $i = 0 + 1;
+            $i = 0;
+// Tant que $i est plus petit que 5000, on boucle
+            while ($i <= 5000){
+                //$1++; 1ere methode ( enlever le $i++ a la fin)
+                echo '<li>'.($i+1).'</li>';
+                //echo '<li>'.++$i.'</li>'; (3 eme methode, sans l'echo au dessus et le $i++ en dessous)
+                $i++;
+            }
 
-    while ($i-1 < 5000){
-    echo '<ul><li>'.$i.'</li></ul>';
-    $i++;
-    }
-    
-?>
-
+        ?>
+    </ul>
 </body>
 </html>

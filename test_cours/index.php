@@ -1,8 +1,6 @@
 <?php
-$i = 0;
-while ($i < 10){
-    echo ' à moi';
-    $i++;
-}
-
+$age = 12;
+do{
+echo'test';
+} while($age > 15);
 ?>
