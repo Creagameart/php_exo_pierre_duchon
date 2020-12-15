@@ -7,10 +7,19 @@
 </head>
 <body>
     <h1>Contact</h1>
-    <ul>
-        <li><a href="index.php">index</a></li>
-        <li><a href="contact.php">contact</a></li>
-        <li><a href="shop.php">shop</a></li>
-    </ul>
+
+    <?php
+        include 'menu.php';
+    ?>
+        <?php
+        include_once 'menu.php';
+    ?>
+        <?php
+        require 'menu.php';
+    ?>
+        <?php
+        require_once 'menu.php';
+    ?>
+
 </body>
 </html>

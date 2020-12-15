@@ -7,10 +7,10 @@
 </head>
 <body>
     <h1>Index</h1>
-    <ul>
-        <li><a href="index.php">index</a></li>
-        <li><a href="contact.php">contact</a></li>
-        <li><a href="shop.php">shop</a></li>
-    </ul>
+
+    <?php
+        include 'menu.php';
+    ?>
+
 </body>
 </html>

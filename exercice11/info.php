@@ -6,7 +6,7 @@
     <title>exo 11 shop</title>
 </head>
 <body>
-    <h1>Shop</h1>
+    <h1>Info</h1>
 
     <?php
         include 'menu.php';
